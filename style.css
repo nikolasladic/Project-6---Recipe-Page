@@ -1,0 +1,144 @@
+* {
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin: 0px;
+}
+
+/***********************************/
+/* Work across the page */
+/**********************************/
+
+h1 {
+  font-size: 40px;
+  font-family: "Young Serif";
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+
+h2 {
+  color: #7a284e;
+  padding-top: 32px;
+  font-size: 28px;
+  line-height: 100%;
+}
+
+p,
+ul,
+ol,
+td {
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f564d;
+  font-family: "Outfit";
+}
+
+ul li,
+ol li {
+  padding: 0px 0 8px 0;
+  line-height: 150%;
+}
+
+ul li:last-child,
+ol li:last-child {
+  padding: 0px;
+}
+
+/***************************************/
+
+body,
+html {
+  background-color: #f3e5d7;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 656px;
+  height: 1620px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 24px;
+}
+
+.hero-pic {
+  width: 656px;
+  border-radius: 12px;
+  padding-bottom: 40px;
+}
+
+.recipe-details {
+  line-height: 150%;
+  padding-bottom: 32px;
+}
+
+.title {
+  padding-bottom: 24px;
+}
+
+/****************************************/
+/* PREPARATION TIME */
+/***************************************/
+
+.prep-time {
+  display: flex;
+  flex-direction: column;
+  height: 124px;
+  padding: 24px;
+  background-color: #fff7fb;
+  border-radius: 12px;
+}
+
+.prep-time-title {
+  padding-bottom: 16px;
+  font-size: 20px;
+  font-family: "Outfit";
+  color: #7a284e;
+}
+
+/****************************************/
+/* INGREDIENTS */
+/***************************************/
+
+.ingredients,
+.instructions {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #f3e5d7;
+}
+
+/****************************************/
+/* INSTRUCTIONS */
+/***************************************/
+
+ol li::marker {
+  color: #7a284e;
+  font-family: "Outfit", regular;
+  font-weight: 600;
+}
+
+/****************************************/
+/* NUTRITION */
+/***************************************/
+
+.nutrition {
+  display: grid;
+}
+
+.nutrition-descr {
+  padding-bottom: 24px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px solid #f3e5d7;
+  padding: 8px;
+}
+td:last-child {
+  color: #7a284e;
+  font-weight: 600;
+}
