@@ -48,11 +48,12 @@ ol li:last-child {
 body,
 html {
   background-color: #f3e5d7;
-
   height: 100%;
 }
 
 body {
+  width: 1440px;
+  height: 1956px;
   display: flex;
   justify-content: center;
   align-items: center;
