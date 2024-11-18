@@ -141,8 +141,15 @@ table {
 td {
   border-bottom: 1px solid #f3e5d7;
   padding: 8px;
+  width: 288px;
 }
 td:last-child {
   color: #7a284e;
   font-weight: 600;
+  padding-right: 0px;
+}
+
+td:first-child {
+  padding-left: 32px;
+  padding-right: 0px;
 }
